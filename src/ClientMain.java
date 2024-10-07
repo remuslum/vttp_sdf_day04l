@@ -1,7 +1,5 @@
 package src;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.Console;
@@ -16,6 +14,7 @@ import java.net.Socket;
 
 public class ClientMain {
     public static void main(String[] args) throws IOException{
+        
         //Create a socket to connect to the server
         Socket socket = new Socket("localhost", 5000);
 
